@@ -2,12 +2,95 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Frank!</title>
+    <!--網頁編碼-->
+    <meta charset="UTF-8" />
+    <meta name="discription" content="小黑的網頁" />
+    <meta name="author" content="FRANK">
+    <meta name="keyword" content="教學,練習">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>OK</title>
 </head>
 
 <body>
-    <h1>This is my personal Page</h1>
+    <!--basic 標題 
+        h1->bigest -->
+    <h1>第一篇文章</h1>
+    <p>今天<i>天氣</i><b>真棒!</b>XD</p>
+    <!-- i->斜體 b->粗體 br換行 hr/水平線 -->
+    <br />
+    <hr />
+    <h2>第二天</h2>
+    <p>天氣真他X爛QQ</p>
+    <!--連結&圖片-->
+    <a href="https://google.com">google web</a>
+    <a href="page2.html">第二頁</a>
+    <a href="dir/page3.html">第三頁</a>
+    <a href="cat01.jpg">CAT</a>
+
+    <img src="https://img.ltn.com.tw/Upload/ent/page/800/2021/02/25/phpXzdxxD.jpg" width="400" />
+    <img src="cat01.jpg" width="400" />
+    <!--youtube 影片載載入-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ga22mpTDS6A" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <!-- 列表 表格-->
+    <ul>
+        <!--點排序-->
+        <li>google</li>
+        <li>facebook</li>
+        <li>ig</li>
+        <li>ppt</li>
+    </ul>
+    <ol style="color:green">
+        <!--數字排序-->
+        <li>google</li>
+        <li>facebook</li>
+        <li>ig</li>
+        <li>ppt</li>
+    </ol>
+    <!--容器 div&span -->
+    <div style="color:red">
+        <ol type="A">
+            <!--type排序-->
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ppt</li>
+        </ol>
+        <table>
+            <tr>
+                <td>日期</td>
+                <td>數學</td>
+                <td>英文</td>
+            </tr>
+            <tr>
+                <td>2/8</td>
+                <td>80</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2/9</td>
+                <td>90</td>
+                <td>70</td>
+            </tr>
+        </table>
+    </div>
+    <!--容器區別 div&span -->
+    <span>01</span>
+    <span>02</span>
+    <hr />
+    <div>01</div>
+    <div>02</div>
+
+    <!--input type-->
+    <input type="text" placeholder="Account">
+    <br />
+    <br /><input type="password" placeholder="Password" />
+    <input type="date/">
+    <input type="range" />
+    <input type="checkbox" />
+    <textarea>XD</textarea>
+    <button onclick="fun">hello</button>
 </body>
 
 </html>
